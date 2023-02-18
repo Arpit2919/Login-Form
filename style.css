@@ -96,7 +96,7 @@ body{
         margin-left: 20rem;
     }
 }
-@media(min-width:0px) and (max-width:767px){
+@media(min-width:400px) and (max-width:767px){
     .search-bar input{
         display: none;
     }
@@ -109,7 +109,22 @@ body{
     }
     .navbar-1{
         /* width: 100%; */
+        width: 500px;
         height: 3rem;
+    }
+}
+@media (max-width:320px){
+    .navbar-1{
+        width: 320px;
+    }
+    .brand-name a{
+        font-size: 1rem;;
+    }
+    .navbar-1-list{
+        display: none;
+    }
+    .search-bar input{
+        display: none;
     }
 }
 
@@ -186,6 +201,10 @@ form a{
     }
     form a{
         display: none;
+    }
+    .login{
+        width:500px;
+        height:580px;
     }
     
 
